@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Text;
 
-namespace Helpers
+namespace DailyHelpers
 {
     public class ExceptionHelper
     {
@@ -23,7 +23,7 @@ namespace Helpers
         /// y un mensaje de log detallado que incluye la traza de la pila y cualquier excepción interna o base.
         /// Dependiendo del tipo de excepción, el método asigna un código de estado HTTP apropiado.
         /// </remarks>
-        public (StringBuilder ErrorMessage, StringBuilder LogErrorMessage, HttpStatusCode StatusCode) WebApiFormatErrorMessages(Exception ex, string endpoint)
+        public static (StringBuilder ErrorMessage, StringBuilder LogErrorMessage, HttpStatusCode StatusCode) WebApiFormatErrorMessages(Exception ex, string endpoint)
         {
             // Inicialización de los mensajes de error
             var errorMessage = new StringBuilder();

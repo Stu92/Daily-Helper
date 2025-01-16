@@ -20,8 +20,9 @@
     <Copyright>Copyright © 2025 Bismarck Cerda A.</Copyright>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.4</Version>
-    <PackageReleaseNotes>Se cambio el marco de trabajo a  .NET 6.0 </PackageReleaseNotes>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>Se cambio nombre de namespace, y el método WebApiFormatErrorMessages paso a estatico</PackageReleaseNotes>
+    <Product>DailyHelpers</Product>
   </PropertyGroup>
 
   <ItemGroup>
