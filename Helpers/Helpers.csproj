@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PublishTrimmed>true</PublishTrimmed>
@@ -20,8 +20,8 @@
     <Copyright>Copyright © 2025 Bismarck Cerda A.</Copyright>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.3</Version>
-    <PackageReleaseNotes>Se cambio a una versión anterior de Microsoft.EntityFrameworkCore compatible con .NET 6.0</PackageReleaseNotes>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Se cambio el marco de trabajo a  .NET 6.0 </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
