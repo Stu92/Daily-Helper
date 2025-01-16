@@ -6,7 +6,37 @@
     <Nullable>enable</Nullable>
     <PublishTrimmed>true</PublishTrimmed>
     <TrimMode>Link</TrimMode>
+    <Authors>BismarckGaelCerdaAlonzo</Authors>
+    <Company>Prometheus</Company>
+    <PackageIcon>prometheus.png</PackageIcon>
+    <PackageId>DailyHelpers</PackageId>
+    <Title>DailyHelpers</Title>
+    <Description>Daily Helpers es una librería diseñada para proporcionar una colección de métodos comunes y utilitarios que facilitan las tareas diarias de un programador.</Description>
+    <PackageProjectUrl>https://github.com/Stu92/Daily-Helper</PackageProjectUrl>
+    <PackageTags>helper, utilitarios, csharp</PackageTags>
+    <RepositoryUrl>https://github.com/Stu92/Daily-Helper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © 2025 Bismarck Cerda A.</Copyright>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\si_bcerda\OneDrive\Prhometheus\prometheus.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
