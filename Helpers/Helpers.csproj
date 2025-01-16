@@ -20,7 +20,8 @@
     <Copyright>Copyright © 2025 Bismarck Cerda A.</Copyright>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
+    <PackageReleaseNotes>Se cambio a una versión anterior de Microsoft.EntityFrameworkCore compatible con .NET 6.0</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
   </ItemGroup>
 
 </Project>
