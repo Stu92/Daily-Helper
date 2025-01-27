@@ -56,7 +56,7 @@ namespace DailyHelpers
             // Incluir la excepción base (si existe) para mayor contexto en los logs
             if (ex.GetBaseException() != ex)
             {
-                logErrorMessage.AppendLine($"Base Exception: {ex.GetBaseException().Message}");
+                logErrorMessage.Append($"Base Exception: {ex.GetBaseException().Message}");
             }
 
             // Determinar el código de estado HTTP
