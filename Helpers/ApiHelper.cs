@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace DailyHelpers
+namespace DailyHelpers.Api
 {
     public static class ApiHelpers
     {

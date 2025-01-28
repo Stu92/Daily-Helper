@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Net;
 
-namespace DailyHelpers
+namespace DailyHelpers.Message
 {
     /// <summary>
     /// Clase auxiliar para manejar mensajes genéricos con un tipo específico, contenido y propiedades relacionadas.

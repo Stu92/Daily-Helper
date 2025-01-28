@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace DailyHelpers
+namespace DailyHelpers.Date
 {
     /// <summary>
     /// Clase de utilidad para realizar operaciones relacionadas con fechas.

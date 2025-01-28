@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace DailyHelpers
+namespace DailyHelpers.String
 {
     /// <summary>
     /// Proporciona métodos estáticos para manipular y transformar cadenas de texto de manera eficiente.
