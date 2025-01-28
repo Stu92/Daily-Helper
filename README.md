@@ -8,9 +8,9 @@
 
 - [**MessageHelper**](https://github.com/Stu92/Daily-Helper/blob/master/Helpers/MessageHelper.cs): Clase diseñada para crear y gestionar mensajes de diferentes tipos (éxito, error, advertencia).
 
-Funcionalidades principales:
-Métodos estáticos para crear instancias de MessageHelper con tipos específicos de mensaje (éxito, error, advertencia).
-Soporte para serialización y deserialización a formato JSON.
-Formateo de mensajes con plantillas personalizadas.
-Métodos de validación para verificar el tipo de mensaje (Error, Success, Warning).
-Gestión de múltiples mensajes a través del método Add.
+    Funcionalidades principales:
+    Métodos estáticos para crear instancias de MessageHelper con tipos específicos de mensaje (éxito, error, advertencia).
+    Soporte para serialización y deserialización a formato JSON.
+    Formateo de mensajes con plantillas personalizadas.
+    Métodos de validación para verificar el tipo de mensaje (Error, Success, Warning).
+    Gestión de múltiples mensajes a través del método Add.
