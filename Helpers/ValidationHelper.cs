@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace DailyHelpers.Validation
+namespace DailyHelpers
 {
     /// <summary>
     /// Clase de utilidad para realizar validaciones comunes.

@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace DailyHelpers.Number
+namespace DailyHelpers
 {
     /// <summary>
     /// Clase de utilidad para realizar operaciones relacionadas con números.

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Text;
 
-namespace DailyHelpers.Exception
+namespace DailyHelpers
 {
     public class ExceptionHelper
     {

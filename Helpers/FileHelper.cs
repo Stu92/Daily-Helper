@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DailyHelpers.File
+namespace DailyHelpers
 {
     /// <summary>
     /// Clase de utilidad para trabajar con archivos.

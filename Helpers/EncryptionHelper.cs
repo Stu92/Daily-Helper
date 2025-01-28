@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace DailyHelpers.Encryption
+namespace DailyHelpers
 {
     /// <summary>
     /// Clase de utilidad para realizar operaciones de codificación y decodificación en Base64.

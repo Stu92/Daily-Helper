@@ -1,10 +1,9 @@
-﻿using DailyHelpers.File;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Reporting.WebForms;
 using System.Net;
 
-namespace DailyHelpers.ReportingService
+namespace DailyHelpers
 {
     /// <summary>
     /// Helper para configurar y manejar servicios de generación de reportes en un servidor de Reporting Services.

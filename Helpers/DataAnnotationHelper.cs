@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DailyHelpers.DataAnnotations
+namespace DailyHelpers
 {
     /// <summary>
     /// Atributo de validación personalizado para comprobar la precisión y escala de valores decimales.
